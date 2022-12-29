@@ -6,11 +6,11 @@ from pyrogram.types import Message
 # from py_youtube import ytdl
 from py_youtube import ytdl 
 
-API_ID = os.environ.get("API_ID",12345)
-API_HASH = os.environ.get("API_HASH","")
-SESSION_NAME = os.environ.get("SESSION_NAME","")
-CHAT = os.environ.get("CHAT","")
-ADMIN = int(os.environ.get("ADMIN", 923943045))
+API_ID = os.environ.get("API_ID",11973721)
+API_HASH = os.environ.get("API_HASH","5264bf4663e9159565603522f58d3c18")
+SESSION_NAME = os.environ.get("SESSION_NAME","BQBMOPAM9e7_BXQzX9V6HtORfNj02_pqSw9jKvwzX_EtEK2083CTBOTsuiqAHZ9x1reOUEfvY2VMR14McoYh-FfmYmK_gcixijSCMzojE5GNekocsZ-14eOWPisl_xg9E0DRyxOSKWzP7dTYiXUhI1UQfz1xdA7DIbZzTgr73UvPr_Ipvq1YnTxQn_kFzeSRc8OXD8AhNZ1ayaOdm76tioan99_wluQznX5AI3aywIu78C21E9va4BuwVIMXL9BWKsXoqgO-4n_NcEkqHuMgHwAB_buLbuU_ou0jxIW7_Jh_be0dH4mJKyXioNl09q_EerdcWz_3LyFgnNVZozPDzWMYUvF4PAA")
+CHAT = os.environ.get("CHAT","1391556668")
+ADMIN = int(os.environ.get("ADMIN", -1001715180239))
 
 app = Client(SESSION_NAME, API_ID, API_HASH)
 
